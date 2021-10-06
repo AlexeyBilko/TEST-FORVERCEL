@@ -1,10 +1,11 @@
 import './App.css';
-import New from './new';
+
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
-function App() {
+function New() {
   return (
+
     <div className="App">
-              <ul>
+        <ul>
               <li>
                 <a><Link to="/" >Page 1</Link></a>
               </li>
@@ -12,9 +13,9 @@ function App() {
                 <a><Link to="/page2" >Page 2</Link></a>
               </li>
             </ul>
-        <h2>HELLO</h2>
+        <h2>New</h2>
     </div>
   );
 }
 
-export default App;
+export default New;
