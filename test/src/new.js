@@ -1,16 +1,15 @@
 import './App.css';
 
-import { BrowserRouter as Link } from "react-router-dom";
 function New() {
   return (
 
     <div className="App">
-        <ul>
+              <ul>
               <li>
-                <a><Link to="/" >Page 1</Link></a>
+                <a href="/">Page 1</a>
               </li>
               <li>
-                <a><Link to="/page2" >Page 2</Link></a>
+                <a href="/page2">Page 2</a>
               </li>
             </ul>
         <h2>New</h2>
